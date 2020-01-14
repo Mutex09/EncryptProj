@@ -84,12 +84,12 @@ public class FinalCrypt
         if (shift)
         {
             ShiftCrypt shiftCrypt = new ShiftCrypt();
-            cryptMessage = shiftCrypt.Crypt(message,key,command);
+            cryptMessage = shiftCrypt.crypt(message,key,command);
         }
         if (unicode)
         {
             UniCrypt uniCrypt = new UniCrypt();
-            cryptMessage = uniCrypt.Crypt(message,key,command);
+            cryptMessage = uniCrypt.crypt(message,key,command);
         }
 
         if (out)

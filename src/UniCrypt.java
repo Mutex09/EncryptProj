@@ -1,6 +1,6 @@
 public class UniCrypt
 {
-    public String Crypt(String message, int key, String command)
+    public String crypt(String message, int key, String command)
     {
         StringBuilder cryptMessage = new StringBuilder("");
 

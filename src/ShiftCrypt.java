@@ -1,7 +1,7 @@
 public class ShiftCrypt
 {
 
-    public String Crypt(String message, int key, String command)
+    public String crypt(String message, int key, String command)
     {
 
         StringBuilder cryptMessage = new StringBuilder("");
