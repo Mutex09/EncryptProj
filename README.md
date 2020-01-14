@@ -1,5 +1,5 @@
 # EncryptPropject
-The program must parse three arguments: <b>-mode, -key, -data/-in, -alg, -out.</b><br> 
+There are five arguments: <b>-mode, -key, -data/-in, -alg, -out.</b><br> 
 <b>The first</b> argument should determine the program’s <b>mode</b> <b>(enc - encryption, dec - decryption).</b> <br>
 <b>The second</b> argument is an integer <b>key</b> to modify the message.<br> 
 <b>The third</b> argument is a text or ciphertext within quotes to encrypt or decrypt(-data) or full name of a file to read data(-in).<br>
